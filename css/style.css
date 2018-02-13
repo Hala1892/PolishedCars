@@ -1,0 +1,38 @@
+
+
+/* BRAND NAME AND SOCIAL LINKS NAVIGATION BAR */
+.upper-navbar{
+ display: flex;
+ align-items: center;
+ background-color: #ddd;
+}
+
+.brand-name {
+    font-size: 60px;
+    text-align: center;
+}
+
+.brand-name>strong{
+    color:#ed1437;
+}
+
+.social-icons-navbar {
+    text-align: center;
+}
+.social-icons-navbar>a {
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    border-radius: 9px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.social-icons-navbar>a:hover {
+    color:#22272e;
+}
+
+/* NAVIGATION BAR */
