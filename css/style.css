@@ -246,3 +246,20 @@ letter-spacing: 1px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }
+
+
+
+
+/*
+Cards
+*/
+
+.card-title {
+    color: #161a1e;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.card {
+    margin: 35px 0;
+}
