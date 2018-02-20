@@ -205,6 +205,54 @@ letter-spacing: 1px;
 
 /* END OF PARALLAX */
 
+.card {
+    margin: 35px 0;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    border-color: rgb(226, 226, 226);
+}
+
+.card-body>.card-title {
+    color: #161a1e;
+    font-size: 36px;
+    letter-spacing: 1px;
+    padding: 25px 0;
+}
+
+.card-body>.card-text {
+    color: #161a1e;
+}
+
+.card-body>a{
+    color: #161a1e;
+    border-radius: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    margin: 10px 0 0;
+}
+
+.card-body>a:hover{
+    color: #fff;
+    background-color: #161a1e;
+}
+
+.card-bottom>ul>li>a {
+    color: #aaa;
+    padding: 0 15px;
+}
+
+.card-bottom>ul>li>a:hover {
+    color: #161a1e;
+    text-decoration: none;
+}
+
+/* START OF MINI BLOG */
+
+
+/* END OF MINI BLOG */
 
 /* RESPONSIVE STYLESHEET */
 
@@ -249,17 +297,3 @@ letter-spacing: 1px;
 
 
 
-
-/*
-Cards
-*/
-
-.card-title {
-    color: #161a1e;
-    font-size: 36px;
-    letter-spacing: 1px;
-}
-
-.card {
-    margin: 35px 0;
-}
