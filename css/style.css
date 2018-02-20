@@ -165,7 +165,7 @@ letter-spacing: 1px;
 }
 
 /* PARALLAX ONE */
-.parallax { 
+.parallax-body { 
     background-image: url(../img/parallax_picture01.jpg);
     height: 400px; 
     background-attachment: fixed;
@@ -187,24 +187,19 @@ letter-spacing: 1px;
     color:#fff;
     font-weight: 900;
 }
-.parallax h2 {
+.parallax-body h2 {
   padding: 30px 10px;
   color: #fff;
-}
-@media only screen and (max-width: 768px) {
-  .parallax h1, .parallax h2 {
-    font-size: 15px !important;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .parallax h1, .parallax h2 {
-    font-size: 10px !important;
-  }
 }
 
 /* END OF PARALLAX */
 
+
+/* START OF MINI BLOG */
+
+.blog-title {
+    color: #161a1e;
+}
 .card {
     margin: 35px 0;
     border-right: none;
@@ -249,10 +244,12 @@ letter-spacing: 1px;
     text-decoration: none;
 }
 
-/* START OF MINI BLOG */
-
 
 /* END OF MINI BLOG */
+
+.block {
+    background-color: #161a1e;
+}
 
 /* RESPONSIVE STYLESHEET */
 
@@ -294,6 +291,19 @@ letter-spacing: 1px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .parallax-body h1, .parallax-body h2 {
+      font-size: 15px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .parallax-body h1, .parallax-body h2 {
+      font-size: 10px !important;
+    }
+  }
+  
 
 
 
