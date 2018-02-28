@@ -1,4 +1,18 @@
-/* WEBSITE FONTS */
+/**********************
+
+        *******************************
+=======================================================
+        WEB DESIGN CREATED BY VLADIMIR MANOV
+            http://vm-web.com
+
+        *******************************
+======================================================= */
+
+
+
+
+/* WEBSITE FONTS 
+======================================================= */
 
 @font-face {
     font-family: Cuprum;
@@ -10,14 +24,25 @@
     src: url('../fonts/RubikMonoOne.ttf')
 }
 
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato-Bold.ttf')
+}
 
-/* WEBSITE BASICS */
+/* WEBSITE BASICS 
+======================================================= */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
 .hr-line{
     width: 250px;
     height: 1px;
     background-color: #ed1437;
 }
-/* BRAND NAME AND SOCIAL LINKS NAVIGATION BAR */
+
+/* BRAND NAME AND SOCIAL LINKS NAVIGATION BAR 
+======================================================= */
 .upper-navbar{
  display: flex;
  align-items: center;
@@ -37,37 +62,38 @@
     text-align: center;
 }
 .social-icons-navbar>a {
-    font-size: 40px;
-    width: 60px;
-    height: 60px;
-    color: #aaa;
+    font-size: 30px;
     text-align: center;
     padding: 10px;
-    margin-left: 20px;
     text-decoration: none;
+    color: #161a1e;
 }
 
-.fa {
-    font-size: 50px !important;
+.social-icons-navbar>a>i{
+    font-size: 32px !important;
 }
-
 .social-icons-navbar>a:hover {
-    color:#161a1e;
+    color: #aaa !important;
 }
 
-/* NAVIGATION BAR */
+
+/* NAVIGATION BAR 
+======================================================= */
 nav {
-    background-color: #22272e;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: -50px;
 }
 
- .brand {
-     margin-left: 25px;
- }
+.brand {
+    margin-left: 35px;
+}
+
 .navbar-brand {
     background-color: #ed1437;
     color: #fff;
     padding: 15px;
-    margin: -10px;
+    margin: -30px -10px;
     font-size: 30px;
     border-radius: 4px;
 }
@@ -79,9 +105,8 @@ nav {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(237,20,55, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
-
-ul.navbar-nav{
-    padding: 5px 55px;
+  ul.navbar-nav{
+    padding: 0px 55px;
 }
 
 li.nav-item{
@@ -89,7 +114,7 @@ li.nav-item{
 }
 
 a.nav-link{
-    font-family: Cuprum !important;
+    font-family: 'Times New Roman', Times, serif;
     color:#fff;
     letter-spacing: 0.15em;
     font-size: 18px;
@@ -101,13 +126,23 @@ a.nav-link:hover{
     color: #aaa;
 }
 
-.fixed-top + .carousel {
-    padding-top: 70px;
+.navbar-color + .carousel {
+    padding-top: -40px;
 }
-/* CAROUSEL */
+
+.navbar-color {
+    background-color: #161a1e;
+    -webkit-transition: background .8s, opacity .8s;
+    -moz-transition: background .8s, opacity .8s;
+    transition: background .8s, opacity .8s;
+}
+
+
+/* CAROUSEL 
+======================================================= */
 
 .carousel {
-    border-bottom: 10px solid #ed1437;
+    border-bottom: 5px solid #ed1437;
 }
 
 .carousel-item{
@@ -137,12 +172,12 @@ transform-style: preserve-3d;
     letter-spacing: 0.3em;
 }
 
-/* ABOUT US SECTION */
+/* ABOUT US SECTION
+======================================================= */
 #about {
     position: relative;
     border-bottom: 5px solid #f3f3f3;
 }
-
 
 .history {
     padding-top: 50px;
@@ -171,8 +206,10 @@ transform-style: preserve-3d;
 }
 
 
-/* SERVICES SECTION */
-.services-title {
+/* SERVICES SECTION 
+======================================================= */
+
+#services-title {
     margin-top: 25px;;
 }
 .card-deck{
@@ -190,13 +227,15 @@ transform-style: preserve-3d;
     padding: 15px;
 }
 
-
 .card-block>p.card-text{
 padding: 35px 0px;
 letter-spacing: 1px;
 }
 
-/* PARALLAX ONE */
+
+/* PARALLAX ONE 
+======================================================= */
+
 .parallax-body { 
     background-image: url(../img/parallax_picture01.jpg);
     height: 400px; 
@@ -224,10 +263,9 @@ letter-spacing: 1px;
   color: #fff;
 }
 
-/* END OF PARALLAX */
 
-
-/* START OF MINI BLOG */
+/* MINI BLOG 
+======================================================= */
 
 .blog-title {
     color: #161a1e;
@@ -276,64 +314,173 @@ letter-spacing: 1px;
     text-decoration: none;
 }
 
+/* OUR CLIENTS SECTION 
+======================================================= */
+.banner .client {
+    background-size: 100px 100px !important;
+    height: 120px;
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    transition: background 0.5s ease;
 
-/* END OF MINI BLOG */
-
-.block {
-    background-color: #161a1e;
+}    	
+.banner h3, .banner h4 {
+font-size: 14px;
+text-align: center;
+font-family: 'montserrat', sans-serif;
+text-transform: uppercase;
+color: #555;
 }
 
-/* RESPONSIVE STYLESHEET */
+.banner .client.va-logo {   background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/VA-GREY-lt.png") no-repeat center center; }
+.banner .client.disa-logo { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/DISA-GREY-lt.png") no-repeat center center; }
+.banner .client.centcom-logo { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/USCENTCOM-GREY-lt.png") no-repeat center center; }
+.banner .client.dos-logo { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/DOS-GREY-lt.png") no-repeat center center; }
 
-    @media all and (max-width: 480px) {
-        /* BRAND AND SOCIAL RESPONSIVE */
-        .upper-navbar {
-            display: none;
-        }
-        /* CAROUSEL RESPONSIVE */
-        .carousel-caption {
-            font-size: 0.3em;
-        }
-        .display-4{
-            font-size: 20px !important;
-            font-weight: 900;
-        }
-        
+.banner .client.va-logo:hover { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/VA-COLOR.png") no-repeat center center; }
+.banner .client.disa-logo:hover { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/DISA-COLOR.png") no-repeat center center; }
+.banner .client.centcom-logo:hover { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/USCENTCOM-COLOR.png") no-repeat center center; }
+.banner .client.dos-logo:hover { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/DOS-COLOR.png") no-repeat center center; }
+
+.banner .client.graham-holdings-logo { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/GRAHAM-HOLDINGS-GREY.png") no-repeat center center; }
+.banner .client.blackboard-logo { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/BLACKBOARD-GREY.png") no-repeat center center; }
+.banner .client.k12-logo { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/K12-GREY.png") no-repeat center center; }
+.banner .client.kaplan-university-logo { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/KAPLAN-GREY.png") no-repeat center center; }
+
+.banner .client.graham-holdings-logo:hover { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/GRAHAM-HOLDINGS-COLOR.png") no-repeat center center; }
+.banner .client.blackboard-logo:hover { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/BLACKBOARD-COLOR.png") no-repeat center center; }
+.banner .client.k12-logo:hover { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/K12-COLOR.png") no-repeat center center; }
+.banner .client.kaplan-university-logo:hover { background: url("http://ms3.bareseo.com/wp-content/uploads/2015/04/KAPLAN-COLOR.png") no-repeat center center; }
+
+.banner .client-group .one-fourth { 
+    float: left;
+    margin-left: 2.564102564102564%;
+    width: 23.076923076923077%;
+}
+.banner .client-group .first {
+    clear: both;
+    margin-left: 0;
 }
 
-@media all and (min-width: 481px) and (max-width: 768px) {
-    .carousel-caption {
-        font-size: 0.4em;
+
+/* GOOGLE MAP 
+======================================================= */
+    #map {
+        width: 100%;
+        height: 500px;
     }
-    .display-4{
-        font-size: 24px !important;
+
+
+/* FOOTER 
+======================================================= */
+footer {
+    width: 100%;
+    padding: 60px 0 40px 0;
+    background-image: url(../img/footer-image.jpg);
     }
+
+.text-widget>.heading {
+    color: #fff;
+    font-size: 32px;
+}
+.textsec>p{
+    color:#fff;
+}
+.footerwidgets {
+    padding: 40px 0;
 }
 
-@media all and (min-width: 769px) and (max-width: 1024px) {
-    .carousel-caption {
-        font-size: 0.7em;
-    }
-    .display-4{
-        font-size: 32px !important;
-    }
-}
-@media all and (min-width: 1025px) and (max-width: 1440px){
-    .card-block>h4>strong{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
+.contactdetail>li>a{
+    color: #fff;
+} 
+.contactdetail>li>a>i{
+  padding-right: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-    .parallax-body h1, .parallax-body h2 {
-      font-size: 15px !important;
-    }
+.contactdetail>li>a:hover{
+  text-decoration: none;
+  color: #ed1437
+}
+
+/* CONTACT FORM 
+======================================================= */
+
+
+.widget-contact {
+    padding: 45px 45px 45px 45px;
+    background: #161a1e;
+    border-radius: 8px;
+}
+
+.widget-contact>.heading{
+    color:#fff;
+    padding-bottom: 20px;
+}
+.order{
+    background: #ed1437 !important;
+    border:none;
+    width: 100%;
+}
+.contact-content {
+    height: 200px;
+}
+  
+h5.order a{
+      color:#fff;
   }
   
-  @media only screen and (max-width: 320px) {
-    .parallax-body h1, .parallax-body h2 {
-      font-size: 10px !important;
-    }
+footer input[type="text"], 
+footer textarea,
+.blacksidebar .contact-forms input[type="text"], 
+.blacksidebar .contact-forms textarea {
+  width: 100%;
+  margin-bottom: 13px;
+  padding: 8px 10px;
+  border-radius: 0;
   }
+  .copyright{
+      margin-bottom:-30px !important;
+  }
+
+  .author{
+      color: #aaa;
+      margin-top: -10px;
+  }
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
