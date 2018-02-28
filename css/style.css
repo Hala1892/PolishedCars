@@ -1,5 +1,22 @@
+/* WEBSITE FONTS */
+
+@font-face {
+    font-family: Cuprum;
+    src: url('../fonts/Cuprum.ttf')
+}
+
+@font-face {
+    font-family: RubikMono;
+    src: url('../fonts/RubikMonoOne.ttf')
+}
 
 
+/* WEBSITE BASICS */
+.hr-line{
+    width: 250px;
+    height: 1px;
+    background-color: #ed1437;
+}
 /* BRAND NAME AND SOCIAL LINKS NAVIGATION BAR */
 .upper-navbar{
  display: flex;
@@ -67,6 +84,7 @@ li.nav-item{
 }
 
 a.nav-link{
+    font-family: Cuprum !important;
     color:#fff;
     letter-spacing: 0.15em;
     font-size: 18px;
@@ -98,6 +116,7 @@ transform-style: preserve-3d;
 }
 
 .carousel-caption {
+    font-family: RubikMono;
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
@@ -143,8 +162,11 @@ transform-style: preserve-3d;
 
 
 /* SERVICES SECTION */
+.services-title {
+    margin-top: 25px;;
+}
 .card-deck{
-    padding: 70px 25px;
+    padding: 45px 25px;
     color: #fff;
 }
 .card-polished {
