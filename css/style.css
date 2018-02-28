@@ -47,6 +47,10 @@
     text-decoration: none;
 }
 
+.fa {
+    font-size: 50px !important;
+}
+
 .social-icons-navbar>a:hover {
     color:#161a1e;
 }
@@ -55,6 +59,7 @@
 nav {
     background-color: #22272e;
 }
+
  .brand {
      margin-left: 25px;
  }
@@ -88,12 +93,17 @@ a.nav-link{
     color:#fff;
     letter-spacing: 0.15em;
     font-size: 18px;
+    display: block;
 }
+
 
 a.nav-link:hover{
     color: #aaa;
 }
 
+.fixed-top + .carousel {
+    padding-top: 70px;
+}
 /* CAROUSEL */
 
 .carousel {
@@ -325,7 +335,5 @@ letter-spacing: 1px;
       font-size: 10px !important;
     }
   }
-  
-
 
 
