@@ -10,6 +10,8 @@
     <link rel="icon" type="image/png" href="img/favicon.jpg">
         <!-- RESET STYLESHEET -->
         <link rel="stylesheet" href="css/stylereset.css">
+                <!-- LOADER STYLESHEET -->
+                <link rel="stylesheet" href="css/loader.css">
         <!-- BOOTSTRAP CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- MAIN STYLESHEET -->
@@ -18,8 +20,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- RESPONSIVE STYLESHEET -->
         <link rel="stylesheet" href="css/responsive.css">
+
+        
     </head>
-<body>
+
+    <body>
+    <!-- LOADER -->
+<div id="overlay">
+    <div class="spinner">
+    </div>
+</div>
     <div id="wrapper">
         <!-- START OF THE HEADER -->
         <header class="head-of-the-page">
@@ -337,30 +347,25 @@
 
 <!-- OUR CLIENTS SECTION -->
 <section id="clients">
-        <h2 class="text-center blog-title display-4">Наши клиенти<hr  align="center" class="hr-line"></h2>
 <div class="banner">
-	    <ul>
+    	    <ul>
 	        <li>
 	        	<div class="client-group commercial">    
 		        	<div class="one-fourth first">
 						<div class="client graham-holdings-logo"></div>
-						<h4>Graham Holdings</h4>
 					</div>
 					<div class="one-fourth">
 						<div class="client k12-logo"></div>
-						<h4>K12 Inc<h4>
 					</div>
 					<div class="one-fourth">
 						<div class="client blackboard-logo"></div>
-						<h4>Blackboard Inc</h4>
 					</div>
 					<div class="one-fourth">
 						<div class="client kaplan-university-logo"></div>
-						<h4>Kaplan University</h4>
 					</div>	
 				</div>	        
 	        </li>
-	    </ul>
+        </ul>
     </div>
 </section>
 
@@ -368,7 +373,6 @@
 
 <!-- GOOGLE MAP -->
 <section id="google-map">
-        <h2 class="text-center blog-title display-4">Местоположение<hr  align="center" class="hr-line"></h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1467.181681294733!2d23.344544346964405!3d42.65365475017172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa843b429aa987%3A0x12421716c5ec4184!2z0YPQuy4g4oCe0LDQutCw0LQuINCW0LDQuiDQndCw0YLQsNC94oCcLCAxNzAwINCh0YLRg9C00LXQvdGC0YHQutC4INCa0L7QvNC_0LvQtdC60YEsINCh0L7RhNC40Y8!5e0!3m2!1sbg!2sbg!4v1519851473766" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 </section>
 <!-- END GOOGLE MAP -->
@@ -438,9 +442,12 @@
     </footer>
 </main>
 </div>
+    <script src="js/loader.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/sticky-navbar.js"></script>
+    <script src="js/sticky-navbar.js"></script>    
+    <script src="js/scroll.js"></script>
 </body>
 </html>
