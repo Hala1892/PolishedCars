@@ -12,9 +12,11 @@ function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("fixed-top")
     navbar.classList.add("navbar-color")
+    $(".brand").removeClass("brand-display");
   } else {
     navbar.classList.remove("fixed-top");
     navbar.classList.remove("navbar-color")
+    $(".brand").addClass("brand-display");
   }
 }
 
