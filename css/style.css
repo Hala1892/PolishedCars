@@ -276,7 +276,7 @@ transform-style: preserve-3d;
 
 .card-block>p.card-text{
     font-family: Unknown,sans-serif;
-    padding: 35px 0px;
+    padding: 35px 25px;
     letter-spacing: 1px;
 }
 
@@ -299,14 +299,16 @@ transform-style: preserve-3d;
 	padding: 110px 60px 70px 70px;
   max-height: 385px;
 }
-.parallax-content h1 {
+.parallax-content h1 {    
+    font-family: Unknown,sans-serif;
 	text-transform: uppercase;
     line-height: 48px;
     letter-spacing: 1px;
     color:#fff;
     font-weight: 900;
 }
-.parallax-body h2 {
+.parallax-body p {
+    font-family: Unknown,sans-serif;
   padding: 30px 10px;
   color: #fff;
 }
@@ -324,13 +326,16 @@ transform-style: preserve-3d;
 }
 
 .card-body>.card-title {
+    font-family: Unknown,sans-serif;
     color: #161a1e;
     font-size: 36px;
-    letter-spacing: 1px;
+    letter-spacing: 0.05em;;
     padding: 25px 0;
 }
 
 .card-body>.card-text {
+    font-family: Unknown,sans-serif;
+    font-size: 18px;
     color: #161a1e;
 }
 
@@ -349,9 +354,12 @@ transform-style: preserve-3d;
     background-color: #161a1e;
 }
 
-.card-bottom>ul>li>a {
-    color: #aaa;
-    padding: 0 15px;
+.card-bottom>ul>li>a {    
+    font-family: Unknown,sans-serif;
+    font-size: 14px;
+    display: inline-block !important    ;
+    color: rgb(133, 133, 133);
+    padding: 0 10px;
 }
 
 .card-bottom>ul>li>a:hover {
@@ -453,14 +461,16 @@ footer {
     }
 
 .text-widget>.heading {
+    font-family: Unknown;
     color: #fff;
     font-size: 32px;
 }
 .textsec>p{
+    font-family: Unknown;    
     color:#fff;
 }
 .footerwidgets {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .contactdetail>li>a{
@@ -486,6 +496,7 @@ footer {
 }
 
 .widget-contact>.heading{
+    font-family: Unknown;
     color:#fff;
     padding-bottom: 20px;
 }
@@ -513,13 +524,38 @@ footer textarea,
   }
 
   .copyright {
-       color: #aaa;
+    font-family: Unknown;
+    color: #aaa;
   }
 
 
 
+/* =======================================================
+====================== GALLERY PAGE ======================
+======================================================= */
+
+.gallery {
+    padding: 60px 0;
+}
+
+.gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
 
 
+.gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    opacity: 0.9;
+}
+
+.gallery img {
+    border-radius: 4px;
+    max-height: 13.5em;
+}
 
 
 

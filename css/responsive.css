@@ -16,10 +16,24 @@
     nav {
         background-color: #161a1e;
     }
+    .gallery img {
+        border-radius: 4px;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    
     
 }
+@media all and (min-width: 481px) and (max-width: 580px) {
+    .gallery img {
+        border-radius: 4px;
+        padding-top: 20px;
+        margin: 0 auto;
+        width: 40%;
+    }
+}
 
-@media all and (min-width: 481px) and (max-width: 768px) {
+@media all and (min-width: 581px) and (max-width: 768px) {
 .carousel-caption {
     font-size: 0.4em;
 }
@@ -37,12 +51,20 @@
     font-size: 20px;
     border-radius: 4px;
 }
-
+.gallery img {
+    border-radius: 4px;
+    padding-top: 15px;
+    margin: 0 auto;    
+}
 }
 
 @media all and (min-width: 769px) and (max-width: 1024px) {
 .carousel-caption {
     font-size: 0.7em;
+}
+.gallery img {
+    border-radius: 4px;
+    padding-top: 25px;       
 }
 .display-4{
     font-size: 32px !important;
