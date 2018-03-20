@@ -9,7 +9,7 @@ var sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset - 80 >= sticky) {
     navbar.classList.add("fixed-top")
     navbar.classList.add("navbar-color")
     $(".brand").removeClass("brand-display");

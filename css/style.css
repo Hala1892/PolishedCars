@@ -28,6 +28,10 @@
     font-family: Lato;
     src: url('../fonts/Lato-Bold.ttf')
 }
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Medium.ttf')
+}
 
 /* WEBSITE BASICS 
 ======================================================= */
@@ -43,20 +47,18 @@ body {
     background-color: #fff; 
 }
 
+#wrapper {
+    display:none;
+}
 .section-title {
     text-align: center;
     font-size: 4em;
     letter-spacing: 0.05em;
-    margin-top: 45px;
+    margin-top: 100px;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
-.hr-line{
-    width: 300px;
-    height: 3px;
-    background-color: #ed1437;
-    margin-bottom: 25px;
-}
 
 /* BRAND NAME AND SOCIAL LINKS NAVIGATION BAR 
 ======================================================= */
@@ -136,17 +138,22 @@ li.nav-item{
 }
 
 a.nav-link{
-    font-family: 'Times New Roman', Times, serif;
-    color:#fff;
+    font-family: Montserrat,'Times New Roman', Times, serif;
+    color: #fff;
     letter-spacing: 0.15em;
-    font-size: 18px;
+    font-size: 13px;
     display: block;
     text-transform: uppercase;
 }
 
 
 a.nav-link:hover{
-    color: #aaa;
+    color: #ccc;
+}
+
+.active {
+    color: #161a1e;
+    background-color: #fff;
 }
 
 .navbar-color + .carousel {
@@ -216,9 +223,7 @@ transform-style: preserve-3d;
 ======================================================= */
 #about {
     position: relative;
-    border-bottom: 5px solid #f3f3f3;
 }
-
 .history {
     padding-bottom: 50px;
     min-height: 600px;
@@ -252,7 +257,9 @@ transform-style: preserve-3d;
 /* SERVICES SECTION 
 ======================================================= */
 
-
+#services {
+    margin-bottom: 45px;
+}
 
 .card-deck{
     margin: 0 auto;
@@ -287,17 +294,24 @@ transform-style: preserve-3d;
 
 .parallax-body { 
     background-image: url(../img/parallax_picture01.jpg);
-    height: 400px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #1e1e1e;
+}
 
-    margin: 70px 0;
+.parallax_02 { 
+    background-image: url(../img/parallax_picture02.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #1e1e1e;
 }
 .parallax-content {
-	padding: 110px 60px 70px 70px;
+	padding: 60px;
   max-height: 385px;
 }
 .parallax-content h1 {    

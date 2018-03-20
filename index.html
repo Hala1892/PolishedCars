@@ -43,7 +43,7 @@
       </div>
         <!-- NAVIGATION BAR -->
         <nav id="navbar" class="navbar navbar-expand-lg">
-                <div class="brand brand-display"><a class="navbar-brand" href="#">Polished<strong>Pro</strong></a></div>
+                <div class="brand brand-display"><a class="navbar-brand scroll" href="#wrapper">Polished<strong>Pro</strong></a></div>
         <!-- TOGGLER BAR -->
                 <button id="navbar-toggler" class="navbar-toggler" type="button" 
                 data-toggle="collapse" data-target="#navbarNavDropdown" 
@@ -55,10 +55,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="#about">За нас</a>
+                      <a class="nav-link scroll" href="#about">За нас</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="#services">Услуги</a>
+                            <a class="nav-link scroll" href="#services">Услуги</a>
                           </li>
                     <li class="nav-item">
                       <a class="nav-link" href="gallery.html">Галерия</a>
@@ -138,7 +138,7 @@
         <div class="container">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 row history pull-right">
                 <h2 class="text-right display-4 section-title">За нас
-                    <hr  align="right" class="hr-line">
+                   
                 </h2>
                 <p class="lead">Обожавате италианската кухня? Ако за вас тя е нещо повече от рецепта 
                 за тесто с доматено пюре, преоткрийте я, както никога до сега при нас в "La Corte dei Mangioni" и 
@@ -157,12 +157,21 @@
     </div>
 </section>
 <!-- END OF ABOUT US SECTION -->
-
+<!-- PARALLAX SECTION -->
+<section id="parallax">
+        <div class="parallax-body col-lg-12 col-sm-12">
+            <div class="parallax-content text-justify">
+                  <h1 class="text-center display-4">Kisho Ceramic Coating</h1>
+                  <p class="text-center">За радост на нашите клиенти ние от професионално полиране , вече сме доверен сервиз на марката Kisho която е лидер на паразара на керамичните покрития на автомобили във световен мащаб.Ние от професионално полиране благодарим на Kisho за гласуваното доверие! </p>
+            </div>
+          </div>
+        </section>
+          <!-- END OF PARALLAX -->
 <!-- SERVICES SECTION -->
 <section id="services">
 <div class="container">
         <h2 class="text-center display-4 section-title">Услуги
-                <hr  align="center" class="hr-line">
+              
             </h2>
     <div class="row">
       <div class="card-deck">
@@ -185,19 +194,40 @@
 
 <!-- PARALLAX SECTION -->
 <section id="parallax">
-<div class="parallax-body col-lg-12 col-sm-12">
-    <div class="parallax-content text-justify">
-          <h1 class="text-center display-4">Kisho Ceramic Coating</h1>
-          <p class="text-center">За радост на нашите клиенти ние от професионално полиране , вече сме доверен сервиз на марката Kisho която е лидер на паразара на керамичните покрития на автомобили във световен мащаб.Ние от професионално полиране благодарим на Kisho за гласуваното доверие! </p>
-    </div>
-  </div>
-</section>
-  <!-- END OF PARALLAX -->
+        <div class="parallax_02 col-lg-12 col-sm-12">
+            <!-- OUR CLIENTS SECTION -->
+    <section id="clients">
+            <div class="banner">
+                        <ul>
+                        <li>
+                            <div class="client-group commercial">    
+                                <div class="one-fourth first">
+                                    <div class="client graham-holdings-logo"></div>
+                                </div>
+                                <div class="one-fourth">
+                                    <div class="client k12-logo"></div>
+                                </div>
+                                <div class="one-fourth">
+                                    <div class="client blackboard-logo"></div>
+                                </div>
+                                <div class="one-fourth">
+                                    <div class="client kaplan-university-logo"></div>
+                                </div>	
+                            </div>	        
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- END OF CLIENTS SECTION -->
+          </div>
+        </section>
+          <!-- END OF PARALLAX -->
   
   <!-- START OF MINI BLOG SECTION -->
   <section class="blog-section">
   <div class="container">
-      <h2 class="text-center section-title display-4">Блог<hr  align="center" class="hr-line"></h2>
+      <h2 class="text-center section-title display-4">Блог</h2>
     <div class="row">
         <div class="col-md-12">
     <!-- FIRST CARD -->
@@ -347,31 +377,7 @@
 </section>
 <!-- END OF MINI BLOG SECTION -->
 
-<!-- OUR CLIENTS SECTION -->
-<section id="clients">
-<div class="banner">
-    	    <ul>
-	        <li>
-	        	<div class="client-group commercial">    
-		        	<div class="one-fourth first">
-						<div class="client graham-holdings-logo"></div>
-					</div>
-					<div class="one-fourth">
-						<div class="client k12-logo"></div>
-					</div>
-					<div class="one-fourth">
-						<div class="client blackboard-logo"></div>
-					</div>
-					<div class="one-fourth">
-						<div class="client kaplan-university-logo"></div>
-					</div>	
-				</div>	        
-	        </li>
-        </ul>
-    </div>
-</section>
 
-<!-- END OF CLIENTS SECTION -->
 
 <!-- GOOGLE MAP -->
 <section id="google-map">
@@ -389,7 +395,7 @@
                         <div class="widget">
                             <div class="text-widget">
                             <h2 class="heading">Нашия адрес</h2>
-                            <hr  align="center" class="hr-line">
+                            
                                 <div class="textsec">
                                     <p>
                                         Нашият сервиз се намира в град София, ул. „академик Жак Натан“.
@@ -453,5 +459,11 @@
     <script src="js/sticky-navbar.js"></script>    
     <script src="js/scroll.js"></script>
     <script src="js/toggler.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-1.9.1.js"
+  integrity="sha256-e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA="
+  crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
+    
 </body>
 </html>

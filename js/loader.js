@@ -2,7 +2,8 @@ var overlay = document.getElementById("overlay");
 
 window.addEventListener('load' ,function(){
     overlay.style.display = 'none';
-    $(".brand").style.display = 'none';
+    $(".brand").addClass("displaynone");
+    $("#wrapper").css("display", "block");
 })
 
 $(function() {
