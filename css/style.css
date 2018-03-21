@@ -59,7 +59,22 @@ body {
     margin-bottom: 50px;
 }
 
+#top {
+    position: fixed;
+    z-index: 1;
+    font-size: 80px;
+    bottom: 0;
+    right: 0;
+    color: #161a1e;
+    margin: 25px;
+}
+#top:hover{
+    color: #555;
+}
 
+.top-display{
+    display:none;
+}
 /* BRAND NAME AND SOCIAL LINKS NAVIGATION BAR 
 ======================================================= */
 .upper-navbar{
@@ -240,6 +255,9 @@ transform-style: preserve-3d;
     left:0;
 }
 
+.fa-arrow-circle-up {
+    display:none;
+}
 .background-image-holder{
    background: url(../img/side_pic.jpg) 100% 100% no-repeat;
     width: 100%;
