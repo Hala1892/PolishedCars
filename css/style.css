@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: Lato;
-    src: url('../fonts/Lato-Bold.ttf')
+    src: url('../fonts/Lato-Regular.ttf')
 }
 @font-face {
     font-family: Montserrat;
@@ -40,6 +40,8 @@
 html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -65,18 +67,16 @@ body {
     font-size: 80px;
     bottom: 0;
     right: 0;
-    color: #161a1e;
+    color: #000000;
     margin: 25px;
+    display:none;
 }
+
 #top:hover{
     color: #555;
 }
-
-.top-display{
-    display:none;
-}
 /* BRAND NAME AND SOCIAL LINKS NAVIGATION BAR 
-======================================================= */
+======================================================= 
 .upper-navbar{
  display: flex;
  align-items: center;
@@ -108,7 +108,7 @@ body {
 .social-icons-navbar>a:hover {
     color: #ed1437 !important;
 }
-
+*/
 
 /* NAVIGATION BAR 
 ======================================================= */
@@ -124,21 +124,24 @@ nav {
 .brand {
     margin-left: 35px;
 }
-.brand-display {
-    display: none;
-}
+
 
 .navbar-brand {
     background-color: #ed1437;
     color: #fff;
-    padding: 15px;
-    margin: -30px -10px;
-    font-size: 30px;
+    padding: 13px;
+    margin: -35px -10px;
     border-radius: 4px;
+    font-size: 30px !important;
 }
-
-.navbar-brand:hover {
-    color: #161a1e;
+.brand-display {
+    background-color: none;
+    color: #fff;
+    font-size: 24px;
+}
+.brand-display:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 .navbar-toggler-icon {
@@ -153,9 +156,9 @@ li.nav-item{
 }
 
 a.nav-link{
-    font-family: Montserrat,'Times New Roman', Times, serif;
+    font-family: Lato, Montserrat,'Times New Roman', Times, serif;
     color: #fff;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     font-size: 13px;
     display: block;
     text-transform: uppercase;
@@ -167,7 +170,7 @@ a.nav-link:hover{
 }
 
 .active {
-    color: #161a1e;
+    color: #000000;
     background-color: #fff;
 }
 
@@ -176,14 +179,14 @@ a.nav-link:hover{
 }
 
 .navbar-color {
-    background-color: #161a1e;
+    background-color: #000000;
     -webkit-transition: background .8s, opacity .8s;
     -moz-transition: background .8s, opacity .8s;
     transition: background .8s, opacity .8s;
 }
 
 .pressed {
-    background-color: #161a1e !important;
+    background-color: #000000 !important;
     border-bottom: 2px solid #ed1437;
 }
 .hover-toggler:hover {
@@ -204,15 +207,11 @@ border-radius: 6px;
 ======================================================= */
 
 .carousel {
-    border-bottom: 5px solid #ed1437;
+    border-bottom: 3px solid #ed1437;
 }
 
 .carousel-item{
-    height: 100%;
-    width: 100%;
-    -webkit-transform-style: preserve-3d;
--moz-transform-style: preserve-3d;
-transform-style: preserve-3d;
+    height: 100vh;
 }
 .carousel-control-next{
     font-size: 150px;
@@ -288,7 +287,7 @@ transform-style: preserve-3d;
     background-color: #ed1437;
 }
 .card-protect {
-    background-color: #161a1e;
+    background-color: #000000;
 }
 
 .card-block>h4 {
@@ -360,7 +359,7 @@ transform-style: preserve-3d;
 
 .card-body>.card-title {
     font-family: Unknown,sans-serif;
-    color: #161a1e;
+    color: #000000;
     font-size: 36px;
     letter-spacing: 0.05em;;
     padding: 25px 0;
@@ -369,11 +368,11 @@ transform-style: preserve-3d;
 .card-body>.card-text {
     font-family: Unknown,sans-serif;
     font-size: 18px;
-    color: #161a1e;
+    color: #000000;
 }
 
 .card-body>a{
-    color: #161a1e;
+    color: #000000;
     border-radius: 0px;
     font-weight: 700;
     text-transform: uppercase;
@@ -384,7 +383,7 @@ transform-style: preserve-3d;
 
 .card-body>a:hover{
     color: #fff;
-    background-color: #161a1e;
+    background-color: #000000;
 }
 
 .card-bottom>ul>li>a {    
@@ -396,7 +395,7 @@ transform-style: preserve-3d;
 }
 
 .card-bottom>ul>li>a:hover {
-    color: #161a1e;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -524,7 +523,7 @@ footer {
 
 .widget-contact {
     padding: 45px 45px 45px 45px;
-    background: #161a1e;
+    background: #000000;
     border-radius: 8px;
 }
 

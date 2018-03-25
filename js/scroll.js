@@ -1,5 +1,5 @@
 
-window.sr = ScrollReveal({duration: 250});
+window.sr = ScrollReveal({duration: 200});
 sr.reveal('#about');
 sr.reveal('.lead');
 sr.reveal('.services-title');
