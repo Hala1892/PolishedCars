@@ -2,9 +2,9 @@
 
 $(document).scroll(function() {
     var y = $(this).scrollTop();
-    if (y > 100) {
-      $('#top').fadeIn();
+    if (y > 50) {
+      $('#top').fadeIn(1500);
     } else {
-      $('#top').fadeOut();
+      $('#top').fadeOut(-500);
     }
   });

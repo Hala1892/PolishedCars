@@ -65,7 +65,7 @@ body {
 #top {
     position: fixed;
     z-index: 1;
-    font-size: 60px;
+    font-size: 40px;
     bottom: 0;
     right: 0;
     color: #000000;
@@ -299,32 +299,73 @@ border-radius: 6px;
     margin-bottom: 45px;
 }
 
-.card-deck{
-    margin: 0 auto;
-    color: #fff;
-    width: 100% !important;    
-}
-.card-polished {
-    background-color: #ed1437;
-}
-.card-protect {
-    background-color: #000000;
-}
+.section-lead {
+    max-width: 600px;
+    margin: 1rem auto 1.5rem;
+  }
 
-.card-block>h4 {
-    font-family: Unknown,sans-serif;
-    padding: 15px;
-}
+  
+  .service h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #ed1437;
+    font-size: 1.3rem;
+    margin: 1rem 0 0.6rem;
+  }
+  
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  
+  .service {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e7e7e7;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+  }
+  
+  .service i {
+    font-size: 3.45rem;
+    margin: 1rem 0;
+  }
+  
+  .service1 i,
+  .service1 h4,
+  .service1 .cta {
+    color: #ed1437;
+  }
+  
+  .service1:hover {
+    border: 2px solid #ed1437;
+  }
+  
+  .service2 i,
+  .service2 h4,
+  .service2 .cta {
+    color: #ed1437;
+  }
+  
+  .service2:hover {
+    border: 2px solid #ed1437;
+  }
 
-.card-block>hr{
-    background-color: #aaa;
-}
+  .service > * {
+    flex: 1 1 100%;
+  }
 
-.card-block>p.card-text{
-    font-family: Unknown,sans-serif;
-    padding: 35px 25px;
-    letter-spacing: 1px;
-}
+
 
 
 /* PARALLAX ONE 
@@ -376,14 +417,22 @@ border-radius: 6px;
     border-left: none;
     width: 100%;
     border-color: rgb(226, 226, 226);
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    opacity: 0.9;
 }
 
+.card:hover {
+    opacity: 1;
+}
 .card-body>.card-title {
     font-family: Unknown,sans-serif;
     color: #000000;
     font-size: 36px;
     letter-spacing: 0.05em;;
     padding: 25px 0;
+    
 }
 
 .card-body>.card-text {
@@ -419,7 +468,22 @@ border-radius: 6px;
     color: #000000;
     text-decoration: none;
 }
-
+#loadMore {
+    color: #fff;
+    background-color: #ed1437;
+    border-radius: 2px;
+    padding: 10px;
+    width: 35%;
+    margin-bottom: 25px;
+    letter-spacing: 0.1em;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+#loadMore:hover {
+    background-color: #c40525;
+}
 
 /* GOOGLE MAP 
 ======================================================= */
@@ -525,7 +589,9 @@ footer {
 .footerwidgets {
     padding: 20px 0;
 }
-
+.contactdetail>li {
+    padding-top: 15px;
+}
 .contactdetail>li>a{
     color: #fff;
 } 
@@ -535,7 +601,7 @@ footer {
 
 .contactdetail>li>a:hover{
   text-decoration: none;
-  color: #ed1437
+  color: #ccc;
 }
 
 /* CONTACT FORM 
@@ -543,15 +609,12 @@ footer {
 
 
 .widget-contact {
-    padding: 45px 45px 45px 45px;
-    background-color: none;
-    border-radius: 8px;
+    padding: 0px 45px 45px 45px;
 }
 
 .widget-contact>.heading{
-    font-family: Unknown;
+    font-family: Lato, sans-serif;
     color:#fff;
-    padding-bottom: 20px;
 }
 .order{
     background: #ed1437 !important;
@@ -560,6 +623,7 @@ footer {
 }
 .order:hover {
     background: #c40525 !important;
+    color: #aaa !important;
 }
 .order>a:hover{
     text-decoration: none;
@@ -619,6 +683,49 @@ footer textarea,
     border-radius: 4px;
     max-height: 13.5em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

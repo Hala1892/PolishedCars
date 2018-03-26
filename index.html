@@ -68,7 +68,7 @@
                       <a class="nav-link" href="gallery.html">Галерия</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="blog.html">Блог</a>
+                      <a class="nav-link scroll" href="#blog">Блог</a>
                     </li>
                     <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="modal" data-target="#largeModal">Контакти</a>
@@ -127,9 +127,7 @@
     <div class="row">
         <div class="container">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 row history pull-right">
-                <h2 class="text-right display-4 section-title">За нас
-                   
-                </h2>
+                <h2 class="text-right display-4 section-title">За нас</h2>
                 <p class="lead">Обожавате италианската кухня? Ако за вас тя е нещо повече от рецепта 
                 за тесто с доматено пюре, преоткрийте я, както никога до сега при нас в "La Corte dei Mangioni" и 
                 направете този подарък към всичките ви вкусове и възприятия.
@@ -156,29 +154,24 @@
             </div>
           </div>
         </section>
-          <!-- END OF PARALLAX -->
+<!-- END OF PARALLAX -->
 <!-- SERVICES SECTION -->
 <section id="services">
-<div class="container">
-        <h2 class="text-center display-4 section-title">Услуги
-              
-            </h2>
-    <div class="row">
-      <div class="card-deck">
-        <div class="card card-polished">
-          <div class="card-block col-md-12">
-            <h4 class="card-title display-4">Професионално <strong>полиране</strong></h4>
-            <hr>
-            <p class="card-text">This is a longer Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse beatae similique o card with supporting text below as a natural lead-in to additional content. This content is a littlbelow as a natural lead-in to additional content.below as a natural lead-in to additional content. This content is a littl This content is a little bit longer.</p>
-          </div>
-        </div>
-        <div class="card card-protect">
-          <div class="card-block">
-              <h4 class="card-title display-4">Поставяне на защитно <strong>покритие</strong> </h4>
-              <hr>
-              <p class="card-text">This is a longer Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse beatae similique o card with supporting text below as a natural lead-in to additional content. This contentbelow as a natural lead-in to additional content. below as a natural lead-in to additional content. This content is a littlThis content is a littl is a little bit longer.</p>
-        </div>
-        </div>
+    <h2 class="text-center display-4 section-title">Услуги</h2>
+    <p class="section-lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="services-grid">
+      <div class="service service1">
+        <i class="fa fa-magic"></i>
+        <h4>Професионално полиране</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+  
+      <div class="service service2">
+        <i class="fa fa-shield"></i>
+        <h4>Поставяне на защитно покритие</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
     </section>
 <!-- END OF SERVICES SECTION -->
 
@@ -215,9 +208,10 @@
           <!-- END OF PARALLAX -->
   
   <!-- START OF MINI BLOG SECTION -->
-  <section class="blog-section">
+  <section id="blog" class="blog-section">
   <div class="container">
       <h2 class="text-center section-title display-4">Блог</h2>
+      <p class="section-lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="row">
         <div class="col-md-12">
     <!-- FIRST CARD -->
@@ -363,7 +357,10 @@
 
         </div>
     </div>
+    <div class="loadMore text-center">
+    <a href="#" id="loadMore" class="btn">Зареди още</a></div>
 </div>
+
 </section>
 <!-- END OF MINI BLOG SECTION -->
 <!-- CONTACT FORM -->
@@ -383,9 +380,11 @@
                               <div class="row">
                                 <div class="col-sm-12">
                                   <div class="row">
+                                        <div class="col-sm-4"><p>Изпратете ни запитване относно сервиза, цена или услуга като попълнете полетата.</p>
+
+                                        </div>
                                     <div class="col-sm-8 col-sm-offset-2">
                                       <div>
-                                        <p>Изпратете ни запитване относно сервиза, цена или услуга като попълнете полетата по-долу.</p>
                                       </div>
                                       <form method="post" data-form-title="CONTACT US">
                                         <input type="hidden" data-form-email="true">
@@ -406,6 +405,8 @@
                                         </div>
                                       </form>
                                     </div>
+
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -432,10 +433,8 @@
                 <div class="row footerwidgets">
                     <div class="col-lg-3 col-md-6 col-sm-6 .col-xs-12">
                         <!-- Text Widget start -->
-                        <div class="widget">
-                            <div class="text-widget">
+                        <div class="widget text-widget">
                             <h2 class="heading">Нашия адрес</h2>
-                            
                                 <div class="textsec">
                                     <p>
                                         Нашият сервиз се намира в град София, ул. „академик Жак Натан“.
@@ -445,14 +444,10 @@
                                         <li><a href="#"><i class="fa fa-facebook-square"></i> profesionalpolishend</a></li>
                                         <li><a href="mailto:support@function.com"><i class="fa fa-envelope"></i> polishedpro@abv.bg</a></li>
                                     </ul>                            
-                                    <div class="clearfix"></div>
-                                </div>
                             </div>
                         </div>
-                        <div class="clearfix"></div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 .col-xs-12">
-                        <div class="clearfix"></div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 .col-xs-12">
                         <div class="widget widget-contact">
@@ -460,16 +455,16 @@
                             <div class="contact-forms">
                                 <form>
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-12 col-sm-12 .col-xs-12">
+                                        <div class="col-lg-5 col-md-12 col-sm-12 .col-xs-12">
                                             <input type="text" placeholder="Вашето име" />
                                         </div>
-                                        <div class="col-lg-4 col-md-12 col-sm-12 .col-xs-12">
+                                        <div class="col-lg-5 col-md-12 col-sm-12 .col-xs-12">
                                             <input type="text" placeholder="Вашия е-мейл" />
                                         </div>
-                                        <div class="col-lg-8 col-md-12 col-sm-12 .col-xs-12">
+                                        <div class="col-lg-10 col-md-12 col-sm-12 .col-xs-12">
                                             <textarea class="contact-content" placeholder="Съобщение"></textarea>
                                         </div>
-                                        <div class="send-btn col-lg-8 col-md-12 col-sm-12 .col-xs-12">
+                                        <div class="send-btn col-lg-10 col-md-12 col-sm-12 .col-xs-12">
                                             <h5 class="order btn btn-primary"><a href="#">Изпрати</a></h5>
                                         </div>
                                     </div>
