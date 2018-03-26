@@ -54,17 +54,18 @@ body {
 }
 .section-title {
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
+    font-weight: 900;
     letter-spacing: 0.05em;
-    margin-top: 100px;
+    margin-top: 60px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 #top {
     position: fixed;
     z-index: 1;
-    font-size: 80px;
+    font-size: 60px;
     bottom: 0;
     right: 0;
     color: #000000;
@@ -206,10 +207,6 @@ border-radius: 6px;
 /* CAROUSEL 
 ======================================================= */
 
-.carousel {
-    border-bottom: 3px solid #ed1437;
-}
-
 .carousel-item{
     height: 100vh;
 }
@@ -222,7 +219,7 @@ border-radius: 6px;
 }
 
 .carousel-caption {
-    font-family: RubikMono;
+    font-family: Montserrat;
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
@@ -230,7 +227,32 @@ border-radius: 6px;
 
 .carousel-caption>h2{
     font-size: 3.5em;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.09em;
+}
+
+/* .btn-contact {
+    background-color: #ed1437;
+    font-size: 14px;
+    border: none;
+    padding: 15px;
+}
+
+.btn-contact:hover {
+    background-color: #fff;
+    color: #ed1437;
+} */
+
+.modal-content {
+    background-color: rgb(238, 238, 238);
+}
+.close {
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.modal-title {
+    font-size: 50px;
+    font-weight: 100;
 }
 
 /* ABOUT US SECTION
@@ -240,11 +262,11 @@ border-radius: 6px;
 }
 .history {
     padding-bottom: 50px;
-    min-height: 600px;
+    min-height: 600px;    
 }
 .history>p.lead {
-    font-family: Unknown,sans-serif;
-    font-size: 20px;
+    font-family: Lato,sans-serif;
+    font-size: 16px;
 }
 
 .photo-container{
@@ -262,8 +284,7 @@ border-radius: 6px;
     width: 100%;
     height: 100%;
     background-size: cover !important;
-    margin-left: -50px;
-
+    margin-left: -200px;
 }
 .divider-background {
     background-size: cover !important;
@@ -523,7 +544,7 @@ footer {
 
 .widget-contact {
     padding: 45px 45px 45px 45px;
-    background: #000000;
+    background-color: none;
     border-radius: 8px;
 }
 
@@ -536,6 +557,12 @@ footer {
     background: #ed1437 !important;
     border:none;
     width: 100%;
+}
+.order:hover {
+    background: #c40525 !important;
+}
+.order>a:hover{
+    text-decoration: none;
 }
 .contact-content {
     height: 200px;
