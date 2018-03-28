@@ -422,7 +422,9 @@ border-radius: 6px;
     transition: all 0.8s ease;
     opacity: 0.9;
 }
-
+.hidden-blog {
+    display:none;
+}
 .card:hover {
     opacity: 1;
 }
@@ -468,23 +470,40 @@ border-radius: 6px;
     color: #000000;
     text-decoration: none;
 }
+
 #loadMore {
     color: #fff;
     background-color: #ed1437;
     border-radius: 2px;
     padding: 10px;
-    width: 35%;
-    margin-bottom: 25px;
+    margin: 25px 15px;
     letter-spacing: 0.1em;
     transition: all 600ms ease-in-out;
     -webkit-transition: all 600ms ease-in-out;
     -moz-transition: all 600ms ease-in-out;
     -o-transition: all 600ms ease-in-out;
+    width: 250px;
 }
 #loadMore:hover {
     background-color: #c40525;
 }
-
+#goBack {
+    color: #fff;
+    background-color: #a7a7a7;
+    border-radius: 2px;
+    width: 250px;
+    padding: 10px;
+    margin: 25px 15px;
+    letter-spacing: 0.1em;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    display:none;
+}
+#goBack:hover {
+    background-color: #c0c0c0;
+}
 /* GOOGLE MAP 
 ======================================================= */
     #map {

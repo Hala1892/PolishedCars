@@ -2,9 +2,8 @@
 window.sr = ScrollReveal({duration: 200});
 sr.reveal('#about');
 sr.reveal('.lead');
-sr.reveal('.services-title');
 sr.reveal('.text-center');
-sr.reveal('.card-block');
+sr.reveal('.service');
 sr.reveal('.blog-title');
 sr.reveal('.blog-img');
 sr.reveal('.card-title');
